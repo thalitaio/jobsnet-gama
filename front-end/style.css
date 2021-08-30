@@ -1,0 +1,56 @@
+body{
+	margin:0px;
+	padding:0px;
+}
+
+.header {
+    background-image: linear-gradient(to right,#F2F2F2, #D99C79);
+    height: 60px;
+    width: 100%;
+}
+
+.logo-header {
+    width: 10rem;
+}  
+
+#carouselExampleCaptions{
+    height: 10rem;
+}
+
+.banner-config {
+    height: 10rem;
+    background-color: red;
+}
+
+#img-desk {
+    max-width: 80%;
+    height: auto;
+
+}
+
+.border-right {
+    border-right: 1px;
+    border-right-style: solid;
+    border-image: 
+      linear-gradient(
+        to top, 
+        #D99C79, 
+        #ffffff
+      ) 1 100%;
+}
+
+.col-config {
+    padding: 50px;
+    margin: 0;
+}
+
+#btn-color {
+    background-color: #2ABF95;
+    border: none;
+    box-shadow: gray 0 3px 6px 0;
+}
+
+#btn-color:hover {
+    background-color: #D99C79;
+}
+

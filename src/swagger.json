@@ -1,0 +1,102 @@
+{
+  "openapi": "3.0.0",
+
+  "info": {
+    "title": "Projeto JobsNET + Gama Academy",
+    "description": "Plataforma de cadastro",
+    "version": "0.0.1"
+  },
+
+  "servers": [
+    {
+      "url": "http://localhost:5000",
+      "description": "ambiente de desenvolvimento"
+    }
+  ],
+
+  "paths": {
+    "/register": {
+      "post": {
+        "summary": "Cadastro de candidato",
+        "description": "Rota de cadastro de usuário.",
+        "tags": ["candidato"],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "properties": {
+                  "name": {
+                    "type": "string"
+                  },
+                  "gender": {
+                    "type": "string"
+                  },
+                  "cep": {
+                    "type": "string"
+                  },
+                  "email": {
+                    "type": "string"
+                  },
+                  "nascimento": {
+                    "type": "string"
+                  }, 
+                  "telefone": {
+                    "type": "string"
+                  },
+                  "celular": {
+                    "type": "string"
+                  },
+                  "endereco": {
+                    "type": "string"
+                  },
+                  "cidade": {
+                    "type": "string"
+                  },
+                  "estado": {
+                    "type": "string"
+                  },
+                  "civil": {
+                    "type": "string"
+                  },
+                  "identidade": {
+                    "type": "string"
+                  },
+                  "cpf": {
+                    "type": "string"
+                  },
+                  "veiculo": {
+                    "type": "string"
+                  },
+                  "habilitacao": {
+                    "type": "string"
+                  }
+                }
+              },
+              "examples": {
+                "eu": {
+                  "value": {
+                    "name": "Thalita Carvalho",
+                    "gender": "Feminino",
+                    "cep": "00000-000",
+                    "email": "thalita@gmail.com",
+                    "nacimento": "04/12/1990",
+                    "telefone": "12340987",
+                    "celular": "099555555",
+                    "endereco": "rua flor 4",
+                    "cidade": "rio de janeiro",
+                    "estado": "RJ",
+                    "civil": "Casada",
+                    "identidade": "23456789",
+                    "cpf": "2345678",
+                    "veiculo": "Não",
+                    "habilitacao": "Não"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

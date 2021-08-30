@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JobsNET</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm header">
+            <div class="container">
+                <a href="index.html" class="navbar-brand">
+                    <img src="/imagens/jobsnet-logo-removebg-preview.png" class="logo-header">
+                </a>
+            </div>
+          </nav>
+    </header>
+
+    <section>
+        <div class="container">
+            <div class="row col-config" >
+                
+                    <div class="col-5 border-right d-flex align-items-center flex-column">
+                            <img src="/imagens/jobsnet-1-removebg-preview.png" id="img-desk">
+  
+                            <figure class="text-center">
+                                <blockquote class="blockquote">
+                                <p>"Encontrei o meu emprego dos sonhos na JobsNET. Sem dúvida, a melhor plataforma para profissionais."</p>
+                                </blockquote>
+                                <figcaption class="blockquote-footer">
+                                Aline Machado <cite title="Source Title">Desenvolvedora na Gama Academy</cite>
+                                </figcaption>
+                            </figure>
+
+                        
+                    </div>
+               
+                <div class="col">
+                    <form class="row g-3">
+                        <div class="col-md-6">
+                          <label for="inputName" class="form-label">Nome Competo</label>
+                          <input type="name" class="form-control" id="inputName">
+                        </div>
+                        <div class="col-md-6">
+                          <label for="inputCargo" class="form-label">Cargo Pretendido</label>
+                          <input type="text" class="form-control" id="inputCargo">
+                        </div>
+                        <div class="form-row">
+                              <label for="inputEmail">Email</label>
+                              <input type="email" class="form-control" id="inputEmail" placeholder="Seu melhor email">
+                            </div>
+                        <div class="col-md-4">
+                            <label for="inputNascimento"class="form-label">Nascimento</label>
+                            <input type="date" class="form-control" id="inputNascimento">
+                          </div>
+                        <div class="col-md-4">
+                            <label for="inputTelefone" class="form-label">Telefone</label>
+                            <input type="text" placeholder="xxxx-xxxx" class="form-control" id="inputTelefone">
+                        </div>
+                        <div class="col-md-4">
+                            <label for="inputCelular" class="form-label">Celular</label>
+                            <input type="text" placeholder="xxxx-xxxx" class="form-control" id="inputCelular">
+                        </div>
+                        <div class="col-12">
+                          <label for="inputAddress" class="form-label">Endereço</label>
+                          <input type="text" class="form-control" id="inputAddress" placeholder="Inclua complementos (se tiver)">
+                        </div>
+                        <div class="col-md-6">
+                          <label for="inputCity" class="form-label">Cidade</label>
+                          <input type="text" class="form-control" id="inputCity">
+                        </div>
+                        <div class="col-md-6">
+                          <label for="inputState" class="form-label">Estado</label>
+                          <select id="inputState" class="form-select">
+                            <option selected>Escolha...</option>
+                            <option value="AC">Acre</option>
+                            <option value="AL">Alagoas</option>
+                            <option value="AP">Amapá</option>
+                            <option value="AM">Amazonas</option>
+                            <option value="BA">Bahia</option>
+                            <option value="CE">Ceará</option>
+                            <option value="DF">Distrito Federal</option>
+                            <option value="ES">Espírito Santo</option>
+                            <option value="GO">Goiás</option>
+                            <option value="MA">Maranhão</option>
+                            <option value="MT">Mato Grosso</option>
+                            <option value="MS">Mato Grosso do Sul</option>
+                            <option value="MG">Minas Gerais</option>
+                            <option value="PA">Pará</option>
+                            <option value="PB">Paraíba</option>
+                            <option value="PR">Paraná</option>
+                            <option value="PE">Pernambuco</option>
+                            <option value="PI">Piauí</option>
+                            <option value="RJ">Rio de Janeiro</option>
+                            <option value="RN">Rio Grande do Norte</option>
+                            <option value="RS">Rio Grande do Sul</option>
+                            <option value="RO">Rondônia</option>
+                            <option value="RR">Roraima</option>
+                            <option value="SC">Santa Catarina</option>
+                            <option value="SP">São Paulo</option>
+                            <option value="SE">Sergipe</option>
+                            <option value="TO">Tocantins</option>
+                          </select>
+                        </div>
+                        <div class="col-md-4">
+                          <label for="inputCep" class="form-label">CEP</label>
+                          <input type="text" class="form-control" id="inputCep">
+                        </div>
+                        <div class="col-md-4">
+                            <label for="inputCivil" class="form-label">Estado Civil</label>
+                            <select id="inputCivil" class="form-select">
+                              <option selected>Escolha...</option>
+                              <option>Solteira(o)</option>
+                              <option>Casada(o)</option>
+                              <option>Divorciada(o)</option>
+                              <option>Viúva(o)</option>
+                              <option>Prefiro não informar</option>
+                            </select>
+                        </div>
+                        <div class="col-md-4">
+                            <label for="inputGenero" class="form-label">Gênero</label>
+                            <select id="inputGenero" class="form-select">
+                              <option selected>Escolha...</option>
+                              <option>Feminino</option>
+                              <option>Masculino</option>
+                              <option>Não-binário</option>
+                              <option>Agênero</option>
+                              <option>Outros</option>
+                              <option>Prefiro não informar</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="inputId" class="form-label">Identidade</label>
+                            <input type="text" placeholder="Apenas números" class="form-control" id="inputId">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="inputCpf" class="form-label">CPF</label>
+                            <input type="text" placeholder="Apenas números" class="form-control" id="inputCpf">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="inputVeiculo" class="form-label">Possui veículo</label>
+                            <select id="inputVeiculo" class="form-select">
+                              <option selected>Escolha</option>
+                              <option>Sim</option>
+                              <option>Nâo</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="inputHabilitacao" class="form-label">Possui habilitação</label>
+                            <select id="inputHabilitacao" class="form-select">
+                              <option selected>Escolha</option>
+                              <option>Sim</option>
+                              <option>Nâo</option>
+                            </select>
+                        </div>
+                        <div class="col-12">
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="gridCheck">
+                            <label class="form-check-label" for="gridCheck">
+                              Autorizo tratamento dos meus dados pela JobsNET.
+                            </label>
+                          </div>
+                        </div>
+                        <div class="col-12 text-center">
+                          <button type="submit" class="btn-lg" id="btn-color">Sign in</button>
+                        </div>
+                      </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+</body>
+</html>
